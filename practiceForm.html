@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Practice</title>
+</head>
+<body>
+    <form action="/action.server">
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" placeholder="enter name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex :</label>
+            <input type="radio" id="sex" name="sex" value="Male">
+            <label for="sex">Male</label>
+            <input type="radio" id="sex" name="sex" value="Female">
+             <label for="sex">Female</label>
+        </div>
+        <br>
+        <div>
+            Country :
+            <select name="country" id="country">
+                <option >select an option </option>
+                <option value="America">America</option>
+                <option value="Astrelia">Astrelia</option>
+                <option value="Brajil">Brajil</option>
+                <option value="caneda">Caneda</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Frane">France</option>
+                <option value="Greece">Greece</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Italy">Italy</option>
+                <option value="India">India</option>
+                <option value="Israel">Israel</option>
+                <option value="Japan">Japan</option>
+            </select>
+        </div>
+        <br>
+        <div>
+              <label for="Message">Message :</label><br>
+              <textarea name="message" id="message" rows="5" cols="100">
+              </textarea>
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="subscribe" name="subscribe" value="subscribed">
+            <label for="subscribe">Subscribe ?</label>
+        </div><br>
+            <button>Submit</button>
+    </form>
+</body>
+</html>

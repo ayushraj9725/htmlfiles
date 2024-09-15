@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Attribute</title>
+</head>
+<body>
+    <!-- Dropdown use to select the option then we used to create like this form we chooge dropown-->
+
+    <form action="/action">
+        <div>
+            <b>chooge your profession : </b>
+            <select name="profession" id="profession">
+                <option >select your option</option>
+                <option value="Student">Student</option> <!-- if we want to select arleady then write selected here in code-->
+                <option value="Developer">Developer</option>
+            </select>
+            <button type="submit">submit</button> <!-- we cant use button into select option-->
+        </div><hr>
+        <div>
+            <label for="volume">enter your volume : </label> <!-- use range type to make form using min max step value etc -->
+            <input type="range" 
+            id="volume" 
+            min="0"
+            max="100" 
+            name="vol" 
+            step="10">
+            <button>submit</button>
+        </div><hr>
+        <div>
+            <label for="feedback">write your feedback &hearts; </label>     <!-- use text area to take like feed back to use textarea tag or element -->
+            <textarea name="feedback"
+             id="feedback"
+             rows="10"
+             cols="100"
+             placeholder="write your feedback please">
+
+            </textarea>
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+</html>
