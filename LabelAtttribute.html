@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label attribute</title>
+</head>
+<body>
+    <!-- form element placeholder attribute that take not place but seen to fill value
+      label -> label element represent a caption for an item in a user interface-->
+    <form action="/action" >
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" id = "username" placeholder="enter username" name="query">
+        </div>                                     <!-- name attribute used to access in backend the referd value from page after submit-->
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="enter password">
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" placeholder="enter age" id="age">
+        </div>  
+
+        <button type="submit">submit</button><!-- work to do for submit-->
+        <button type="button">button</button><!--only work for same page-->
+        <button type="reset">reset</button><!--do for reset the things on form--> <br>
+        <input type="button" value="click here"><br>
+        <input type="submit" value="click here">  
+
+    </form>
+</body>
+</html>
